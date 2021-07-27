@@ -46,7 +46,7 @@ header {
     .showcase {
         width: 100%;
         height: 80vh;
-        background: url("img/c.jpg");
+        background: url("c.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -173,14 +173,14 @@ header {
 .web-design-box {
     width: 50%;
     height: 100%;
-    background: url("img/yellow.jpg");
+    background: url("yellow.jpg");
     background-size: cover;
     background-position: center;
 }
 .graphics-design-box {
     width: 50%;
     height: 100%;
-    background: url("img/green-high.jpg");
+    background: url("green-high.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -233,7 +233,7 @@ header {
 .computer-engineering-box {
     width: 100%;
     height: 400px;
-    background: url("img/a.jpg");
+    background: url("a.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -333,7 +333,7 @@ header {
     .showcase {
         width: 100%;
         height: 80vh;
-        background: url("img/c.jpg");
+        background: url("c.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -456,14 +456,14 @@ header {
 .web-design-box {
     width: 50%;
     height: 100%;
-    background: url("img/yellow.jpg");
+    background: url("yellow.jpg");
     background-size: cover;
     background-position: center;
 }
 .graphics-design-box {
     width: 50%;
     height: 100%;
-    background: url("img/green-high.jpg");
+    background: url("green-high.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -516,7 +516,7 @@ header {
 .computer-engineering-box {
     width: 100%;
     height: 400px;
-    background: url("img/a.jpg");
+    background: url("a.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -606,7 +606,7 @@ header {
     .showcase {
         width: 100%;
         height: 50vh;
-        background: url("img/c.jpg");
+        background: url("c.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -730,14 +730,14 @@ header {
 .web-design-box {
     width: 100%;
     height: 500px;
-    background: url("img/yellow.jpg");
+    background: url("yellow.jpg");
     background-size: cover;
     background-position: center;
 }
 .graphics-design-box {
     width: 100%;
     height: 500px;
-    background: url("img/green-high.jpg");
+    background: url("green-high.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -790,7 +790,7 @@ header {
 .computer-engineering-box {
     width: 100%;
     height: 200px;
-    background: url("img/a.jpg");
+    background: url("a.jpg");
     background-size: cover;
     background-position: center;
 }
