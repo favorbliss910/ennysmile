@@ -1,0 +1,850 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+    body {
+        background: yellow;
+    }
+
+    hr {
+        width: 100%;
+        height: 5px;
+        background-color: yellow;
+    }
+    .hr {
+        width: 5px;
+        height: 100%;
+        background: yellow;
+    }
+header {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+}
+
+.logo {
+    width: 200px;
+    height: 6 0px;
+    display: flex;
+    background: yellow;
+    justify-content: center;
+    margin: 5px 10px;
+}
+
+    .logo > h1 {
+        font-size: 60px;
+        padding: 4px 3px;
+    }
+    .logo > p {
+        font-size: 20px;
+        padding: 4px 3px;
+    }
+    .showcase {
+        width: 100%;
+        height: 80vh;
+        background: url("img/c.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .showcase-text {
+        width: 80%;
+        height: 150px;
+        margin: 5% 10%;
+    }
+    .showcase-text > h1 {
+        font-size: 80px;
+        text-shadow: 2px 1px 3px rgba(22, 9, 9, 0.199);
+        color: #fff;
+    }
+
+    .showcase-text > h1 > span {
+        color: orange;
+    }
+
+    .showcase-text > p {
+        font-size: 40px;
+        color: orange;
+        text-shadow: 2px 1px 3px rgba(7, 1, 1, 0.397);
+    }
+
+    .showcase-text > p > span {
+        color: #fff;
+    }
+
+    .showcase-text > a > button {
+        width: 200px;
+        height: 40px;
+        background: yellow;
+        color: #000;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        margin: 5px 0px;
+        transition: all ease 01s;
+    }
+
+    .showcase-text > a > button:hover {
+        background: #000;
+        width: 230px;
+        color: orange;
+    }
+    .showcase-box {
+        width: 80%;
+        margin-left: 10%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -10%;
+    }
+
+      .showcase-box-box {
+        width: 300px;
+        height: 300px;
+        background: rgba(255, 166, 0, 0.623);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all ease 0.8s;
+      }
+
+      .showcase-box-box:hover {
+          border: 5px solid yellow;
+      }
+
+      .showcase-box-box > h1 {
+        font-size: 100px;
+        color: #fff;
+      }
+
+        .showcase-box-box > h3 {
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+      }
+
+
+
+      /* Info Box */
+      .info-box {
+          width: 80%;
+          margin-left: 20%;
+          margin-top: 5%;
+          height: 100px;
+          background: rgba(255, 166, 0, 0.623);
+          display: block;
+          align-items: center;
+      }
+      .info-box  > h1 {
+          color: #fff;
+          font-size: 50px;
+          color: #000;
+          padding: 0px 10px;
+      }
+      .info-box  > p {
+          color: #fff;
+          font-size: 20px;
+          color: #fff;
+          padding: 0px 10px;
+      }
+
+      .info-box  > p > span {
+          color: yellow;
+          text-decoration: underline;
+      }
+/* xInfo Boxx */
+
+
+
+/* Web Design */
+.web-design {
+    width: 90%;
+    margin: 5% 5%;
+    height: 700px;
+    background: rgba(255, 166, 0, 0.623);
+    display: flex;
+}
+
+.web-design-box {
+    width: 50%;
+    height: 100%;
+    background: url("img/yellow.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.graphics-design-box {
+    width: 50%;
+    height: 100%;
+    background: url("img/green-high.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.web-design-text {
+    width: 50%;
+    height: 100%;
+}
+.web-design-text > h1 {
+    font-size: 80px;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.web-design-text > h1 > span {
+    color: yellow;
+}
+.web-design-text > h3 {
+    font-size: 30px;
+    color: #000;
+    padding: 10px 5px;
+}
+.web-design-text > h3 > a{
+    text-decoration: underline;
+}
+.web-design-text > p {
+    font-size: 20px;
+    color: #000;
+    padding: 10px 5px;
+}
+.web-design-text > a > p {
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 10px 5px;
+} 
+/* xWeb Designx */
+
+
+
+/* Compure Enginnering */
+.computer-engineering {
+    width: 70%;
+    height: 600px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.computer-engineering-box {
+    width: 100%;
+    height: 400px;
+    background: url("img/a.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.computer-engineering-text {
+    width: 100%;
+    height: 200px;
+}
+.computer-engineering-text > h1 {
+    font-size: 60px;
+}
+.computer-engineering > h1 > span {
+    color: yellow;
+}
+.computer-engineering-text > h3 {
+    font-size: 30px;
+    color: #000;
+    padding: 10px 5px;
+}
+.computer-engineering-text > h3 > a{
+    text-decoration: underline;
+}
+.computer-engineering-text > p {
+    font-size: 20px;
+    color: #000;
+    padding: 10px 5px;
+}
+/* xCompure Enginneringx */
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 300px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer > h1 {
+    color: orange;
+    font-size: 50px;
+}
+.footer > h3 {
+    color: yellow;
+    font-size: 30px;
+}
+.footer > P {
+    color: yellow;
+    font-size: 20px;
+}
+.social-box i {
+    color: #fff;
+    font-size: 50px;
+}
+
+
+
+/* xMake my websit Responsive for Mini Laptop and Tabletsx */
+@media only screen and (min-width: 850px) and (max-width: 1350px){
+
+    
+    hr {
+        width: 100%;
+        height: 5px;
+        background-color: yellow;
+    }
+    .hr {
+        width: 5px;
+        height: 100%;
+        background: yellow;
+    }
+header {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+}
+
+.logo {
+    width: 200px;
+    height: 6 0px;
+    display: flex;
+    background: yellow;
+    justify-content: center;
+    margin: 5px 10px;
+}
+
+    .logo > h1 {
+        font-size: 60px;
+        padding: 4px 3px;
+    }
+    .logo > p {
+        font-size: 20px;
+        padding: 4px 3px;
+    }
+    .showcase {
+        width: 100%;
+        height: 80vh;
+        background: url("img/c.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .showcase-text {
+        width: 80%;
+        height: 150px;
+        margin: 5% 10%;
+    }
+    .showcase-text > h1 {
+        font-size: 80px;
+        text-shadow: 2px 1px 3px rgba(22, 9, 9, 0.199);
+        color: #fff;
+    }
+
+    .showcase-text > h1 > span {
+        color: orange;
+    }
+
+    .showcase-text > p {
+        font-size: 40px;
+        color: orange;
+        text-shadow: 2px 1px 3px rgba(7, 1, 1, 0.397);
+    }
+
+    .showcase-text > p > span {
+        color: #fff;
+    }
+
+    .showcase-text > a > button {
+        width: 200px;
+        height: 40px;
+        background: yellow;
+        color: #000;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        margin: 5px 0px;
+        transition: all ease 01s;
+    }
+
+    .showcase-text > a > button:hover {
+        background: #000;
+        width: 230px;
+        color: orange;
+    }
+    .showcase-box {
+        width: 80%;
+        margin-left: 10%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -10%;
+    }
+
+      .showcase-box-box {
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 166, 0, 0.623);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all ease 0.8s;
+      }
+
+      .showcase-box-box:hover {
+          border: 5px solid yellow;
+      }
+
+      .showcase-box-box > h1 {
+        font-size: 70px;
+        color: #fff;
+      }
+
+        .showcase-box-box > h3 {
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+      }
+
+      .info-box {
+          width: 80%;
+          margin-left: 20%;
+          margin-top: 5%;
+          height: 80px;
+          background: rgba(255, 166, 0, 0.623);
+          display: block;
+          align-items: center;
+      }
+      .info-box  > h1 {
+          color: #fff;
+          font-size: 35px;
+          color: #000;
+          padding: 0px 10px;
+      }
+      .info-box  > p {
+          color: #fff;
+          font-size: 20px;
+          color: #fff;
+          padding: 0px 10px;
+      }
+
+      .info-box  > p > span {
+          color: yellow;
+          text-decoration: underline;
+      }
+
+
+
+
+.web-design {
+    width: 90%;
+    margin: 5% 5%;
+    height: 700px;
+    background: rgba(255, 166, 0, 0.623);
+    display: flex;
+}
+
+.web-design-box {
+    width: 50%;
+    height: 100%;
+    background: url("img/yellow.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.graphics-design-box {
+    width: 50%;
+    height: 100%;
+    background: url("img/green-high.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.web-design-text {
+    width: 50%;
+    height: 100%;
+}
+.web-design-text > h1 {
+    font-size: 70px;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.web-design-text > h1 > span {
+    color: yellow;
+}
+.web-design-text > h3 {
+    font-size: 25px;
+    color: #000;
+    padding: 3px 5px;
+}
+.web-design-text > h3 > a{
+    text-decoration: underline;
+}
+.web-design-text > p {
+    font-size: 15px;
+    color: #000;
+    padding: 3px 5px;
+}
+.web-design-text > a > p {
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 3px 5px;
+} 
+
+
+
+
+
+.computer-engineering {
+    width: 70%;
+    height: 600px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.computer-engineering-box {
+    width: 100%;
+    height: 400px;
+    background: url("img/a.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.computer-engineering-text {
+    width: 100%;
+    height: 200px;
+}
+.computer-engineering-text > h1 {
+    font-size: 40px;
+}
+.computer-engineering > h1 > span {
+    color: yellow;
+}
+.computer-engineering-text > h3 {
+    font-size: 30px;
+    color: #000;
+    padding: 5px 5px;
+}
+
+.computer-engineering-text > p {
+    font-size: 20px;
+    color: #000;
+    padding: 5px 5px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer > h1 {
+    color: orange;
+    font-size: 50px;
+}
+.footer > h3 {
+    color: yellow;
+    font-size: 30px;
+}
+.footer > P {
+    color: yellow;
+    font-size: 20px;
+}
+.social-box i {
+    color: #fff;
+    font-size: 50px;
+}
+
+
+}
+@media only screen and (min-width: 300px) and (max-width: 849px){
+    
+    hr {
+display: none;
+    }
+    .hr {
+display: none;
+    }
+header {
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    background: yellow;
+    justify-content: center;
+    margin: 5px 10px;
+}
+
+    .logo > h1 {
+        font-size: 20px;
+        padding: 4px 3px;
+    }
+    .logo > p {
+        font-size: 5px;
+        padding: 4px 3px;
+    }
+    .showcase {
+        width: 100%;
+        height: 50vh;
+        background: url("img/c.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .showcase-text {
+        width: 90%;
+        height: 50px;
+        margin: 5% 5%;
+    }
+    .showcase-text > h1 {
+        font-size: 40px;
+        color: #fff;
+    }
+
+    .showcase-text > h1 > span {
+        color: orange;
+    }
+
+    .showcase-text > p {
+        font-size: 015px;
+        color: orange;
+    }
+
+    .showcase-text > p > span {
+        color: #fff;
+    }
+
+    .showcase-text > a > button {
+        width: 100px;
+        height: 20px;
+        background: yellow;
+        color: #000;
+        outline: none;
+        border: none;
+        font-size: 12px;
+        margin: 5px 0px;
+        transition: all ease 01s;
+    }
+
+    .showcase-text > a > button:hover {
+        background: #000;
+        width: 140px;
+        color: orange;
+    }
+    .showcase-box {
+        width: 98%;
+        margin-left: 1%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -10%;
+    }
+
+      .showcase-box-box {
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 166, 0, 0.623);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all ease 0.8s;
+        margin: 10px 0px;
+      }
+
+      .showcase-box-box:hover {
+          border: 5px solid yellow;
+      }
+
+      .showcase-box-box > h1 {
+        font-size: 50px;
+        color: #fff;
+      }
+
+        .showcase-box-box > h3 {
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+      }
+
+      .info-box {
+          width: 100%;
+          margin-left: 0%;
+          margin-top: 5%;
+          height: 80px;
+          background: rgba(255, 166, 0, 0.623);
+          display: block;
+          align-items: center;
+      }
+      .info-box  > h1 {
+          color: #fff;
+          font-size: 20px;
+          color: #000;
+          padding: 0px 10px;
+      }
+      .info-box  > p {
+          color: #fff;
+          font-size: 15px;
+          color: #fff;
+          padding: 0px 10px;
+      }
+
+      .info-box  > p > span {
+          color: yellow;
+          text-decoration: underline;
+      }
+
+
+
+
+.web-design {
+    width: 100%;
+    margin: 5% 0%;
+    height: 1000px;
+    background: rgba(255, 166, 0, 0.623);
+    display: flex;
+    flex-direction: column;
+}
+
+.web-design-box {
+    width: 100%;
+    height: 500px;
+    background: url("img/yellow.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.graphics-design-box {
+    width: 100%;
+    height: 500px;
+    background: url("img/green-high.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.web-design-text {
+    width: 100%;
+    height: 400px;
+}
+.web-design-text > h1 {
+    font-size: 40px;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.web-design-text > h1 > span {
+    color: yellow;
+}
+.web-design-text > h3 {
+    font-size: 15px;
+    color: #000;
+    padding: 3px 5px;
+}
+.web-design-text > h3 > a{
+    text-decoration: underline;
+}
+.web-design-text > p {
+    font-size: 15px;
+    color: #000;
+    padding: 3px 5px;
+}
+.web-design-text > a > p {
+    font-size: 15px;
+    text-decoration: underline;
+    padding: 3px 5px;
+} 
+
+
+
+
+
+.computer-engineering {
+    width: 100%;
+    height: 400px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.computer-engineering-box {
+    width: 100%;
+    height: 200px;
+    background: url("img/a.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.computer-engineering-text {
+    width: 100%;
+    height: 200px;
+}
+.computer-engineering-text > h1 {
+    font-size: 30px;
+    padding: 5px 5px;
+}
+.computer-engineering > h1 > span {
+    color: yellow;
+}
+.computer-engineering-text > h3 {
+    font-size: 20px;
+    color: #000;
+    padding: 5px 5px;
+}
+
+.computer-engineering-text > p {
+    font-size: 15px;
+    color: #000;
+    padding: 5px 5px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer > h1 {
+    color: orange;
+    font-size: 40px;
+    padding: 3px 5px;
+}
+.footer > h3 {
+    color: yellow;
+    font-size: 20px;
+    padding: 1px 5px;
+}
+.footer > P {
+    color: yellow;
+    font-size: 15px;
+    padding: 1px 5px;
+}
+.social-box i {
+    color: #fff;
+    font-size: 30px;
+}
+
+}
