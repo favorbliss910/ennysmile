@@ -181,6 +181,7 @@ header > ul > li > a:hover{
         align-items: center;
         transition: all ease 0.8s;
         box-shadow: 3px 5px 7px rgba(0,0,0,0.3);
+        margin: 0% 0%;
       }
 
       .showcase-box-box:hover {
@@ -472,6 +473,50 @@ header > ul > li > a:hover{
     border-bottom: 5px solid yellow;
 }
 
+.graphic-showcase-text {
+    width: 80%;
+    height: 150px;
+    margin: 0% 10%;
+}
+.graphic-showcase-text > h1 {
+    font-size: 80px;
+    text-shadow: 2px 1px 3px rgba(22, 9, 9, 0.199);
+    color: #fff;
+}
+
+.graphic-showcase-text > h1 > span {
+    color: orange;
+}
+
+.graphic-showcase-text > p {
+    font-size: 40px;
+    color: orange;
+    text-shadow: 2px 1px 3px rgba(7, 1, 1, 0.397);
+}
+
+.graphic-showcase-text > p > span {
+    color: #fff;
+}
+
+.graphic-showcase-text > a > button {
+    width: 200px;
+    height: 40px;
+    background: yellow;
+    color: #000;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin: 5px 0px;
+    transition: all ease 01s;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.graphic-showcase-text > a > button:hover {
+    background: #000;
+    width: 230px;
+    color: orange;
+}
+
 /* Graphics Info */
 .graphic-info {
     width: 90%;
@@ -510,6 +555,7 @@ header > ul > li > a:hover{
     justify-content: center;
     box-shadow: 2px 3px 4px rgba(0,0,0,0.3);
     transition: all ease 0.8s;
+    margin: 0% 0%;
 }
 .graphic-section-box:hover {
     width: 290px;
@@ -663,7 +709,7 @@ header > ul > li > a:hover{
 .computer-lecture {
     width: 90%;
     height: 600px;
-    background: red;
+    background: #fff;
 }
 
 .computer-lecture-img {
@@ -777,9 +823,9 @@ input[type="submit"]:hover {
 }
 
 .contact-social {
-    width: 60%;
+    width: 30%;
     height: 400px;
-    margin: 2% 20%;
+    margin: 2% 35%;
     background: #000;
     display: flex;
     flex-direction: column;
@@ -788,6 +834,10 @@ input[type="submit"]:hover {
 }
 .contact-social > h3 {
     font-size: 30px;
+    color: #fff;
+}
+.contact-social > p {
+    font-size: 20px;
     color: #fff;
 }
 .contact-social-img {
@@ -873,7 +923,7 @@ input[type="submit"]:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top: 10px solid orange;
+    border-top: 2px solid orange;
 }
 .footer > h1 {
     color: orange;
